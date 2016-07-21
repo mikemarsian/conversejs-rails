@@ -16,7 +16,18 @@ Add the following to your gemfile:
 
 Add the following directive to your Javascript manifest file (application.js):
 
-    //= require moment
+    //= require converse
+    
+If you receive javascript errors [like these](https://github.com/requirejs/almond#incorrect-module-build-no-module-name), try adding _converse.js_ and _converse.css_ manually in your layout file, after all other javascripts:
+
+    <html>
+        <head>
+            <!-- all of your js and css files here -->
+            <!--            .....                  -->
+            <%= stylesheet_link_tag "converse" %>
+            <%= javascript_include_tag "converse" %>
+        </head>
+    ...
 
 ## Versioning
 
