@@ -31,7 +31,7 @@ If you receive javascript errors [like these](https://github.com/requirejs/almon
 
 ## Versioning
 
-conversejs-rails 1.0.3 == Converse.js 1.0.3
+conversejs-rails 3.3.4 == Converse.js 3.3.4
 
 Every attempt is made to mirror the currently shipping Converse.js version number
 wherever possible. The major, minor, and patch version numbers will always

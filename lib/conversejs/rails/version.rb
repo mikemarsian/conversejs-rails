@@ -1,5 +1,5 @@
 module Conversejs
   module Rails
-    VERSION = "1.0.4"
+    VERSION = "3.3.4"
   end
 end
